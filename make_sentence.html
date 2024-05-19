@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <title>Phrase-o-matic</title>
+ <meta charset="utf-8">
+ <script>
+ function makePhrases() {
+var words1 = ["24/7", "多层次", "最后一公里 ", "B to B", "消费者和互联网公司的双赢"];
+var words2 = ["授权", "赋能", "定向", "聚集", "加盟"];
+var words3 = ["过程", "产品优势", "对齐颗粒度", "策略", "愿景"];
+var rand1 = Math.floor(Math.random() * words1.length);
+var rand2 = Math.floor(Math.random() * words2.length);
+var rand3 = Math.floor(Math.random() * words3.length);
+var phrase = words1[rand1] + " " + words2[rand2] + " " + words3[rand3];
+alert(phrase);
+ }
+ makePhrases();
+ </script>
+</head>
